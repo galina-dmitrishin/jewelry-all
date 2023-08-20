@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("font/Avenir-Medium.woff2") format("woff2"),
+    url("font/Avenir-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+body {
+    margin: 0;
+    font-family: "Avenir", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.wrap-flex {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.inner {
+    padding-right: 100px;
+}
+
+.link-btn2 {
+    display: inline-block;
+    width: 111px;
+    background-color: #000000;
+    color: #fff;
+    line-height: 40px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: all .6s;
+}
+
+.link-btn2:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* effect 2 */
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.item1-a {
+    color: #1a1919;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.item1-a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    background-color: #1a1919;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .4s;
+}
+
+.item1-a:hover::after {
+    width: 100%;
+}
+
+
+.user-img:hover {
+    opacity: .7;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.user-img {
+    transition: all .6s;
+}
+
+/* 2 */
+
+.user-img2:hover {
+    opacity: .7;
+    transition: all .2;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.user-img2 {
+    transition: all .2s;
+}
+
