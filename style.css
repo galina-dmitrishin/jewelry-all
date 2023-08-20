@@ -126,3 +126,9 @@ ul {
     transition: all .2s;
 }
 
+/* effect 3 */
+
+.heart {
+    cursor: pointer;
+}
+
