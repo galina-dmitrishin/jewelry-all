@@ -226,8 +226,8 @@ ul {
 
 .input:focus {
     outline: none;
-    border: 1px solid #1e1f24;
-    box-shadow: 0px 0px 0px 4px #a5dbe6;
+    border: 1px solid #666666;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,.2);
 }
 
 .input:focus::placeholder {
