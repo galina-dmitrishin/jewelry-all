@@ -142,7 +142,7 @@ ul {
 
 /* effect 5 */
 
-.eff5 {
+/*.eff5 {
     opacity: .7;
     transition: all .6s;
 }
@@ -178,7 +178,7 @@ ul {
 .eff5-3:hover {
     opacity: .7;
     transform: scale(0.95);
-}
+} */
 
 .eff5-4 {
     opacity: 1;
@@ -221,7 +221,6 @@ ul {
     color: #222222;
     letter-spacing: .5px;
     font-family: "Avenir";
-    line-height: 54px;
 }
 
 .input:focus {
@@ -243,3 +242,95 @@ ul {
     margin: 0px 0px 3px;
 }
 
+/*  effect 7  */
+
+.input-item-textarea {
+    width: 560px;
+    padding-bottom: 30px;
+}
+
+.input-textarea {
+    width: 100%;
+    height: 138px;
+    border: 1px solid #b5b9bf;
+    border-radius: 0px;
+    padding-left: 12px;
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+    letter-spacing: .5px;
+    font-family: "Avenir";
+    transition: all .3s;
+    resize: vertical;
+}
+
+.input-textarea:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
+}
+
+.input-textarea:focus::placeholder {
+    color: transparent;
+}
+
+.input-textarea:focus {
+    outline: none;
+    border: 1px solid #666666;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,.2);
+}
+
+.input-textarea::placeholder {
+    font-size: 20px;
+    font-weight: 300;
+    color: #222222;
+    letter-spacing: .5px;
+    font-family: "Avenir";
+}
+
+/*  effect 8  */
+
+.input-item2 {
+    width: 450px;
+    padding-bottom: 30px;
+}
+
+.input2 {
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid #b5b9bf;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 12px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #222222;
+    letter-spacing: .5px;
+    font-family: "Avenir";
+    transition: all .1s;
+}
+
+.input2::placeholder {
+    font-size: 24px;
+    font-weight: 300;
+    color: #222222;
+    letter-spacing: .5px;
+    font-family: "Avenir";
+}
+
+.input2:focus {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #666666;
+}
+
+.input-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #BFBFBF;
+    letter-spacing: .5px;
+    font-family: "Avenir";
+    margin: 0px 0px 3px;
+}
