@@ -693,7 +693,7 @@ ul {
     display: block;
     width: 24px;
     height: 24px;
-    background: url("../img/check.svg") center no-repeat;
+    background: url("img/check.svg") center no-repeat;
     background-size: 12px 12px;
     position: absolute;
     top: 50%;
