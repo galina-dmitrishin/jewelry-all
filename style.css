@@ -226,7 +226,7 @@ ul {
 .input:focus {
     outline: none;
     border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 4px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,.2);
 }
 
 .input:focus::placeholder {
@@ -242,109 +242,6 @@ ul {
     margin: 0px 0px 3px;
 }
 
-/*  effect 6-1  */
-
-.input-item {
-    width: 450px;
-    padding-bottom: 30px;
-}
-
-.input72 {
-    width: 100%;
-    height: 48px;
-    border: 1px solid #b5b9bf;
-    border-radius: 8px;
-    padding-left: 12px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .3s;
-}
-
-.input72:hover {
-    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
-}
-
-.input72::placeholder {
-    font-size: 24px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-.input72:focus {
-    outline: none;
-    border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 3px rgba(0,0,0,.2);
-}
-
-.input72:focus::placeholder {
-    color: transparent;
-}
-
-.input-title {
-    font-size: 24px;
-    font-weight: 400;
-    color: #BFBFBF;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    margin: 0px 0px 3px;
-}
-
-/*  effect 6-2  */
-
-.input-item {
-    width: 450px;
-    padding-bottom: 30px;
-}
-
-.input73 {
-    width: 100%;
-    height: 48px;
-    border: 1px solid #b5b9bf;
-    border-radius: 8px;
-    padding-left: 12px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .3s;
-}
-
-.input73:hover {
-    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
-}
-
-.input73::placeholder {
-    font-size: 24px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-.input73:focus {
-    outline: none;
-    border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 2px rgba(0,0,0,.2);
-}
-
-.input73:focus::placeholder {
-    color: transparent;
-}
-
-.input-title {
-    font-size: 24px;
-    font-weight: 400;
-    color: #BFBFBF;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    margin: 0px 0px 3px;
-}
 
 /*  effect 7  */
 
@@ -380,7 +277,7 @@ ul {
 .input-textarea:focus {
     outline: none;
     border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 4px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,.2);
 }
 
 .input-textarea::placeholder {
@@ -391,135 +288,6 @@ ul {
     font-family: "Avenir";
 }
 
-
-/*  effect 7-1  */
-
-.input-item-textarea {
-    width: 560px;
-    padding-bottom: 30px;
-}
-
-.input-textarea1 {
-    width: 100%;
-    height: 138px;
-    border: 1px solid #b5b9bf;
-    border-radius: 0px;
-    padding-left: 12px;
-    padding-top: 6px;
-    font-size: 20px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .3s;
-    resize: vertical;
-}
-
-.input-textarea1:hover {
-    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
-}
-
-.input-textarea1:focus::placeholder {
-    color: transparent;
-}
-
-.input-textarea1:focus {
-    outline: none;
-    border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 3px rgba(0,0,0,.2);
-}
-
-.input-textarea1::placeholder {
-    font-size: 20px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-/*  effect 7-2  */
-
-.input-item-textarea {
-    width: 560px;
-    padding-bottom: 30px;
-}
-
-.input-textarea2 {
-    width: 100%;
-    height: 138px;
-    border: 1px solid #b5b9bf;
-    border-radius: 0px;
-    padding-left: 12px;
-    padding-top: 6px;
-    font-size: 20px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .3s;
-    resize: vertical;
-}
-
-.input-textarea2:hover {
-    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
-}
-
-.input-textarea2:focus::placeholder {
-    color: transparent;
-}
-
-.input-textarea2:focus {
-    outline: none;
-    border: 1px solid #666666;
-    box-shadow: 0px 0px 0px 2px rgba(0,0,0,.2);
-}
-
-.input-textarea2::placeholder {
-    font-size: 20px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-/*  effect 8  */
-
-.input-item2 {
-    width: 450px;
-    padding-bottom: 30px;
-}
-
-.input2 {
-    width: 100%;
-    height: 48px;
-    border-bottom: 1px solid #b5b9bf;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-left: 12px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .1s;
-}
-
-.input2::placeholder {
-    font-size: 24px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-.input2:focus {
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid #666666;
-}
 
 
 /*  effect 8-2  */
@@ -560,90 +328,9 @@ ul {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #666666;
-    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
-}
-
-/*  effect 8-2  */
-
-
-.input-item2 {
-    width: 450px;
-    padding-bottom: 30px;
-}
-
-.input4 {
-    width: 100%;
-    height: 48px;
-    border-bottom: 1px solid #b5b9bf;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-left: 12px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .1s;
-}
-
-.input4::placeholder {
-    font-size: 24px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-.input4:focus {
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #666666;
     box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
 }
 
-/*  effect 8-3  */
-
-
-.input-item2 {
-    width: 450px;
-    padding-bottom: 30px;
-}
-
-.input5 {
-    width: 100%;
-    height: 48px;
-    border-bottom: 1px solid #b5b9bf;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-left: 12px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-    transition: all .1s;
-}
-
-.input5::placeholder {
-    font-size: 24px;
-    font-weight: 300;
-    color: #222222;
-    letter-spacing: .5px;
-    font-family: "Avenir";
-}
-
-.input5:focus {
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #666666;
-    box-shadow: 0px 1.5px 0px 0px rgba(0,0,0,.2);
-}
 
 /*  effect 10  */
 
@@ -736,7 +423,7 @@ ul {
 
   .arr-l:hover {
     opacity: 1;
-    transform: scale(1.05) translate(0, -50.05%);
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,.33));
   }
 
   .arr-r {
