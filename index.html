@@ -170,8 +170,68 @@
         </div>
     </div>
 
+    <div style="color: blueviolet; font-size: 40px; padding-left: 60px; padding-bottom: 20px;">14</div>
+    <div class="wrap-flex">
+        <div class="inner">
+            <svg id="shape" class="svg-click-heart2" width="138" height="125" viewBox="0 0 138 125" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                <path d="M105.761 57.3594C88.7851 57.3594 75.0215 71.1633 75.0215 88.1809C75.0215 105.199 88.7851 118.991 105.761 118.991C122.736 118.991 136.5 105.199 136.5 88.1809C136.5 71.1633 122.736 57.3594 105.761 57.3594ZM104.046 71.018L107.984 70.9784L108.034 86.2352L123.257 86.2189L123.277 90.1786L108.008 90.1325L108.005 105.105L104.065 105.085L104.089 90.1794L88.985 90.1026L88.9599 86.167L104.065 86.2456L104.046 71.018Z" stroke="black" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M68.0448 14.3031C68.0448 14.3031 76.6784 1.89208 96.404 1.77214C116.13 1.65225 136.755 17.8814 134.789 40.2744C133.148 58.9565 127.296 60.5724 127.296 60.5724C127.296 60.5724 121.142 55.3684 111.028 53.7234C102.134 52.2771 89.4565 54.1287 80.7311 63.3827C62.4118 82.8119 72.9888 103.719 79.1725 112.107C79.288 112.264 68.0979 123.228 68.0979 123.228C68.0979 123.228 24.8722 78.9374 7.27116 59.5497C6.25814 58.4341 2.72227 53.3393 1.64283 44.2721C1.09844 39.699 1.90743 29.1429 7.65469 19.6429C13.3029 10.3065 25.1275 1.79024 40.9121 1.79024C58.8307 1.79024 68.0448 14.3031 68.0448 14.3031Z" stroke="black" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+
+                <style>
+                    .svg-click-heart2 {transition: .6s;}
+                    .svg-click-heart2:hover  {fill: #ffffff; stroke: #000000;}
+                </style>
+
+            </svg>
+
+        </div>
+        <div class="inner">
+            <svg id="svgshaaape" class="svg-heart2" width="162" height="101" viewBox="0 0 162 101" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-white" d="M9.09034 1.75783L151.535 2.43283C152.308 2.43662 152.454 2.84218 151.862 3.33898L91.6521 53.8464C91.6521 53.8464 85.9921 58.5941 80.6223 58.5293C75.2525 58.4645 70.5332 54.5459 70.5332 54.5459L8.76248 2.65122C8.17091 2.15442 8.31768 1.75452 9.09034 1.75783Z" stroke="#000000" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path class="svg-white" d="M104.945 49.4376L161 3.58008L160.823 91.0069L160.81 97.3305L104.994 53.7509C103.49 52.5767 103.468 50.6458 104.945 49.4376Z" stroke="#000000" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path class="svg-white" d="M57.055 49.4376L1 3.58008L1.17688 91.0069L1.18964 97.3305L57.0059 53.7509C58.5095 52.5767 58.5312 50.6458 57.055 49.4376Z" stroke="#000000" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path class="svg-white" d="M63.3171 55.0998C63.3171 55.0998 70.8423 64.4813 80.3127 64.3281C91.3335 64.1499 97.8008 54.7949 97.8008 54.7949L152 97.6967C153.082 98.5532 152.84 99.2457 151.46 99.2434L11.5333 99.0051C9.80248 99.0018 9.49538 98.1236 10.8473 97.043L63.3171 55.0998Z" stroke="#000000" stroke-width="1.60208" stroke-miterlimit="10" stroke-linejoin="round"/>
+
+                <style>
+                    .svg-white {transition: .6s;}
+                    .svg-heart2:hover .svg-white {fill: #ffffff; stroke: #000000;}
+                </style>
+
+                </svg>
+        </div>
+    </div>
+
 
     <div style="height: 300px;"></div>
+
+    <script>
+
+        var shapeClick = document.getElementById('shape').addEventListener("click", changeColor);
+        var clicks = 0;
+        function changeColor(){
+        if (shape.style.fill == "rgb(255, 255, 255)")
+        {
+            shape.style.fill = "#000000";
+        }
+        else {
+            shape.style.fill = "rgb(255, 255, 255)";
+        }
+        }
+    </script>
+    <script>
+        var svgshaaapeClick = document.getElementById('svgshaaape').addEventListener("click", changeColor);
+        var clicks = 0;
+        function changeColor(){
+        if (svgshaaape.style.fill == "rgb(255, 255, 255)")
+        {
+            svgshaaape.style.fill = "#000000";
+        }
+        else {
+            svgshaaape.style.fill = "rgb(255, 255, 255)";
+        }
+        }
+
+    </script>
 
 
 </body>
