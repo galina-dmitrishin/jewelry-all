@@ -331,6 +331,56 @@ ul {
     box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
 }
 
+/*  effect 9  */
+
+
+.square {
+    width: 400px;
+    height: 487px;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.square:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0,.33);
+}
+
+
+
+/*  effect 9 -2 */
+
+
+.square2 {
+    width: 400px;
+    height: 487px;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.square2:hover {
+    box-shadow: 1px 1px 6px rgba(0,0,0,.33);
+}
+
+
+/*  effect 9 -3 */
+
+
+.square3 {
+    width: 400px;
+    height: 487px;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.square3:hover {
+    box-shadow: 1px 1px 8px rgba(0,0,0,.33);
+}
+
+
+
 
 /*  effect 10  */
 
