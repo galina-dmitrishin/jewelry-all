@@ -120,7 +120,7 @@ ul {
     transition: all .6s;
 }
 
-/* 2 */
+/* effect 3 */
 
 .user-img2:hover {
     opacity: .7;
@@ -179,6 +179,8 @@ ul {
     opacity: .7;
     transform: scale(0.95);
 } */
+
+/* effect 5 */
 
 .eff5-4 {
     opacity: 1;
@@ -290,7 +292,7 @@ ul {
 
 
 
-/*  effect 8-2  */
+/*  effect 8  */
 
 
 .input-item2 {
